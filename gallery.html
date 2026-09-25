@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery - Assignment 2</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Task 2: Page Layout with Grid Areas -->
+  <div class="gallery-page">
+
+    <header class="site-header">
+      <h1>Assignment 2</h1>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Music</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <aside class="gallery-sidebar">
+      <h2>Artists</h2>
+
+      <p><a href="#the-weeknd">The Weeknd</a></p>
+      <p><a href="#lana-del-rey">Lana Del Rey</a></p>
+      <p><a href="#billie-eilish">Billie Eilish</a></p>
+    </aside>
+
+    <main class="gallery-main">
+      <!-- Task 3: Image Gallery -->
+      <h2>Album gallery</h2>
+      <p>
+        Nine albums. Move your mouse over a cover to highlight its caption.
+      </p>
+
+      <div class="album-gallery">
+
+        <figure class="album" id="the-weeknd">
+          <img src="images/after-hours.jpg" alt="After Hours album cover">
+          <figcaption>
+            After Hours<br>
+            The Weeknd
+          </figcaption>
+        </figure>
+
+        <figure class="album">
+          <img src="images/starboy.jpg" alt="Starboy album cover">
+          <figcaption>
+            Starboy<br>
+            The Weeknd
+          </figcaption>
+        </figure>
+
+        <figure class="album">
+          <img src="images/dawn-fm.jpg" alt="Dawn FM album cover">
+          <figcaption>
+            Dawn FM<br>
+            The Weeknd
+          </figcaption>
+        </figure>
+
+        <figure class="album" id="lana-del-rey">
+          <img src="images/born-to-die.jpg" alt="Born to Die album cover">
+          <figcaption>
+            Born to Die<br>
+            Lana Del Rey
+          </figcaption>
+        </figure>
+
+        <figure class="album">
+          <img src="images/ultraviolence.jpg" alt="Ultraviolence album cover">
+          <figcaption>
+            Ultraviolence<br>
+            Lana Del Rey
+          </figcaption>
+        </figure>
+
+        <figure class="album">
+          <img src="images/honeymoon.jpg" alt="Honeymoon album cover">
+          <figcaption>
+            Honeymoon<br>
+            Lana Del Rey
+          </figcaption>
+        </figure>
+
+        <figure class="album" id="billie-eilish">
+          <img src="images/when-we-all-fall-asleep.jpg"
+               alt="WHEN WE ALL FALL ASLEEP, WHERE DO WE GO? album cover">
+          <figcaption>
+            WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?<br>
+            Billie Eilish
+          </figcaption>
+        </figure>
+
+        <figure class="album">
+          <img src="images/happier-than-ever.jpg"
+               alt="Happier Than Ever album cover">
+          <figcaption>
+            Happier Than Ever<br>
+            Billie Eilish
+          </figcaption>
+        </figure>
+
+        <figure class="album">
+          <img src="images/hit-me-hard-and-soft.jpg"
+               alt="HIT ME HARD AND SOFT album cover">
+          <figcaption>
+            HIT ME HARD AND SOFT<br>
+            Billie Eilish
+          </figcaption>
+        </figure>
+
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      Assignment 2 - CSS Grid
+    </footer>
+
+  </div>
+
+</body>
+</html>
